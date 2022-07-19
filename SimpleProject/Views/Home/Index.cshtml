@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">TRAINER RAJEEV SIR STUDENTS</h1>
+    
+      <dl type="A">
+
+     <dt> <a asp-controller="TeamA" asp-action="list1"> TEAM-A</a>  </dt>  <dd>   Team A Rocks    </dd>
+     <dt> <a asp-controller="TeamB" asp-action="list2"> TEAM-B</a>  </dt>  <dd>     Team B Talented  </dd>
+     <dt> <a asp-controller="TeamC" asp-action="list3"> TEAM-C</a>  </dt>  <dd>  Team C Clever  </dd>
+     <dt> <a asp-controller="TeamD" asp-action="list4"> TEAM-D</a>  </dt>  <dd>  Team D Dedicated     </dd>
+    
+        </dl>  
+        <a asp-controller="MaleFemale" asp-action="Male"> Male-Students</a>
+        <a asp-controller="MaleFemale" asp-action="Female"> Female-Students</a>
+
+</div>
